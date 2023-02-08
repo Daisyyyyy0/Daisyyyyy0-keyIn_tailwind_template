@@ -1,0 +1,35 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1{
+        @apply text-3xl;
+    }
+    h2{
+        @apply text-xl;
+    }
+}
+
+@layer components {
+    .btn-blue{
+        @apply bg-indigo-500 text-white py-1 px-3 rounded-md hover:bg-cyan-500;
+    }
+
+
+}
+.content-area{
+    @apply bg-red-50;
+    /* height: theme('spacing.128'); */
+}
+
+/* @media screen(xl){
+    body{
+        @apply bg-black text-white;
+    }
+} */
+
+.tabActive{
+    
+}
